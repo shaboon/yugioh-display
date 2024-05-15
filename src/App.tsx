@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// https://db.ygoprodeck.com/api/v7/cardinfo.php
+
 function App() {
   return (
     <div className="App">
