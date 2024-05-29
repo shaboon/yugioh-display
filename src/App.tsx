@@ -10,8 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Landing />
+        <div className='nav'></div>
       </header>
+        <Landing />
     </div>
   );
 }
