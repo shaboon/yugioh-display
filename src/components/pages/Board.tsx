@@ -6,18 +6,18 @@ export default function Board () {
                 <div className="board">
                     <div className="field1">
                         <div className="s-tzone">
-                            <div className="s-t1" draggable="true"></div>
-                            <div className="s-t2" draggable="true"></div>
-                            <div className="s-t3" draggable="true"></div>
-                            <div className="s-t4" draggable="true"></div>
-                            <div className="s-t5" draggable="true"></div>
+                            <div className="s-t1 card"></div>
+                            <div className="s-t2 card"></div>
+                            <div className="s-t3 card"></div>
+                            <div className="s-t4 card"></div>
+                            <div className="s-t5 card"></div>
                         </div>
                         <div className="mzone">
-                            <div className="m1" draggable="true"></div>
-                            <div className="m2" draggable="true"></div>
-                            <div className="m3" draggable="true"></div>
-                            <div className="m4" draggable="true"></div>
-                            <div className="m5" draggable="true"></div>
+                            <div className="m1"></div>
+                            <div className="m2"></div>
+                            <div className="m3"></div>
+                            <div className="m4"></div>
+                            <div className="m5"></div>
                         </div>
                     </div>
                     <div className="extra-zones">
@@ -26,18 +26,18 @@ export default function Board () {
                     </div>
                     <div className="field2">
                         <div className="s-tzone p2">
-                            <div className="s-t1" draggable="true"></div>
-                            <div className="s-t2" draggable="true"></div>
-                            <div className="s-t3" draggable="true"></div>
-                            <div className="s-t4" draggable="true"></div>
-                            <div className="s-t5" draggable="true"></div>
+                            <div className="s-t1 card"></div>
+                            <div className="s-t2 card"></div>
+                            <div className="s-t3 card"></div>
+                            <div className="s-t4 card"></div>
+                            <div className="s-t5 card"></div>
                         </div>
                         <div className="mzone p2">
-                            <div className="m1" draggable="true"></div>
-                            <div className="m2" draggable="true"></div>
-                            <div className="m3" draggable="true"></div>
-                            <div className="m4" draggable="true"></div>
-                            <div className="m5" draggable="true"></div>
+                            <div className="m1"></div>
+                            <div className="m2"></div>
+                            <div className="m3"></div>
+                            <div className="m4"></div>
+                            <div className="m5"></div>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default function Board () {
                 </div>
             </div>
             <div className="hand-section">
-                <div className="hand"></div>
+                <div className="hand" draggable="true"></div>
             </div>
         </div>
     )
