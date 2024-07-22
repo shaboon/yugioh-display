@@ -10,10 +10,15 @@ import Search from './components/Search';
 // https://db.ygoprodeck.com/api/v7/cardinfo.php
 
 function App() {
+  let cardData = "";
 
   const handleAPICall = async () => {
     const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php');
     const data = await response.json();
+
+    cardData = data.data;
+    console.log(cardData[0]); 
+
     console.log(data);
   }
 
