@@ -6,11 +6,11 @@ export default function Board () {
                 <div className="board">
                     <div className="field1">
                         <div className="s-tzone">
-                            <div className="s-t1 card"></div>
+                            <div className="s-t1 pend card"></div>
                             <div className="s-t2 card"></div>
                             <div className="s-t3 card"></div>
                             <div className="s-t4 card"></div>
-                            <div className="s-t5 card"></div>
+                            <div className="s-t5 pend card"></div>
                         </div>
                         <div className="mzone">
                             <div className="m1"></div>
@@ -26,11 +26,11 @@ export default function Board () {
                     </div>
                     <div className="field2">
                         <div className="s-tzone p2">
-                            <div className="s-t1 card"></div>
+                            <div className="s-t1 pend card"></div>
                             <div className="s-t2 card"></div>
                             <div className="s-t3 card"></div>
                             <div className="s-t4 card"></div>
-                            <div className="s-t5 card"></div>
+                            <div className="s-t5 pend card"></div>
                         </div>
                         <div className="mzone p2">
                             <div className="m1"></div>
