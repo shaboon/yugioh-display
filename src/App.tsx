@@ -16,9 +16,7 @@ function App() {
     <div className="App flex bg-gradient-to-t from-purple-500 to-indigo-900">
         <Landing />
         <Search />
-        <div className='api-test flex flex-wrap bg-gray-600 justify-center rounded-md drop-shadow-xl' id='api-test'>
         </div>
-    </div>
   );
 }
 
