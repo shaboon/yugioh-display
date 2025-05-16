@@ -2,10 +2,9 @@ export default function Search () {
 
     return (
         <div>
-            <h1>Search Page</h1>
-
-            <form>
-                <input placeholder="Search Card Name"></input>
+            {/* Search Box */}
+            <form className="search-container">
+                <input placeholder="Search Card Name" className="searchbox"></input>
                 <button>Search</button>
             </form>
             

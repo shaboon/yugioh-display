@@ -18,7 +18,7 @@ export default function Landing() {
           console.log(link.href);
           link.target = '_blank';
     
-          // This the cards pulled from the API
+          // This is the cards pulled from the API
           const cardIMG = document.createElement("img");
           cardIMG.className = 'card-img drop-shadow-md m-2';
           cardIMG.src = cardData[randomStart + i].card_images[0].image_url;
@@ -41,7 +41,7 @@ export default function Landing() {
         <div>
             <div className="flex flex-wrap justify-center" id="api-test" >
             </div>
-            <h1>The Card Shop</h1>
+            {/* <h1>The Card Shop</h1>
                 <div className="landing-nav">
                     <div className="nav-to-board">
                         <h1>Board</h1>
@@ -51,7 +51,7 @@ export default function Landing() {
                         <h1 className="nav-to-wiki">Database</h1>
                         <p> Here you can search for any card in the game and read up on its effects and lore</p>
                     </div>
-                </div>
+                </div> */}
         </div>
     )
 }
